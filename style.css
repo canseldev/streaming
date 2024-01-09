@@ -1,0 +1,218 @@
+html, body, p {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #040a20;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border-bottom: 2px solid #17203d;
+
+}
+.head .logo {
+    font-size: 35px;
+    display: flex;
+    gap: 14px;
+    margin: 15px 30px;
+    color: aqua;
+    font-style: italic;
+    font-weight: bold;
+
+}
+.head .search input {
+    background-color: transparent;
+    padding: 10px 15px;
+    margin: 20px 15px;
+    width: 450px;
+    color: aliceblue;
+    border: 1.5px solid aqua;
+    border-radius: 40px;
+    font-size: bold;
+
+}
+.head .search input:focus{
+    outline: none;
+}
+.head .profile ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+}
+.head .profile ul li a {
+    text-decoration: none;
+    font-size: 35px;
+    margin: 10px 25px;
+    color: aqua;
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+.main .left .top {
+    display: flex;
+}
+.main .left .top .up h1 {
+    margin: 10px 20px;
+}
+.main .left .top .up .button {
+    display: flex;
+    background-color: aqua;
+    color: aliceblue;
+    width: 290px;
+    margin: 10px 20px;
+    padding: 10px;
+    gap: 10px;
+    font-size: 18px;
+    color: #040a20;
+    font-weight: bold;  
+    border-radius: 30px;
+}
+
+.main .left .top .up .button span {
+    color: azure;
+}
+.main .left .top .top-right {
+    align-items: end;
+    display: flex;
+}
+.main .left .top .top-right ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+}
+.main .left .top .top-right ul li a {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+.main .left .top .top-right ul li a span {
+    background-color: aqua;
+    border-radius: 50%;
+    padding: 8px;
+    color: #040a20;
+    font-weight: bold;
+}
+.main .left .content {
+   margin-left: 90px;
+}
+.main .left .content iframe {
+    width: 700px;
+    height: 500px;
+    margin:30px 60px;
+    border-radius: 40px;
+   
+}
+.main .left .videos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-left: 90px;
+}
+.main .left .videos iframe {
+    width: 260px;
+    height: 240px;
+    border-radius: 30px;
+    border: 1px solid #17203d;
+}
+.main .right {
+    background-color: #17203d;
+    width: 400px;
+    height: 700px;
+    margin: 30px 50px;
+    border-radius: 40px;
+}
+.main .right .user ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.main .right .user ul li a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    gap:5px;
+    font-size: 10px;
+}
+.main .right .user ul li a i {
+    font-size: 48px;
+}
+.main .right .chat span {
+    font-size: 24px;
+    margin: 10px 20px;
+}
+.main .right .chat ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+
+}
+.main .right .chat ul li a {
+    text-decoration: none;
+    color: aqua;
+
+}
+.main .right .text .message {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 5px;
+   
+}
+.main .right .text  .lefttext i {
+    font-size: 26px;
+}
+.main .right .text .message span {
+    display: block;
+    padding: 3px;
+    background-color: #040a20;
+    border-radius: 30px;
+    max-width: 80%;
+    padding: 10px 15px;
+    color: darkgray;
+    margin: 0 5px;
+}
+.main .right .text .righttext {
+    align-items: end;
+
+}
+.main .right .text .righttext span {
+    background-color: aqua;
+}
+.main .right .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .right .buttons input {
+    margin: 5px 10px;
+    padding: 5px 10px;
+    background-color: transparent;
+    width: 70%;
+    border: 1px solid #040a20;
+    border-radius: 30px;
+    color: aliceblue;
+}
+.main .right .buttons input:focus{
+    outline: none;
+}
+.main .right .buttons .icons a {
+    text-decoration: none;
+    margin: 5px;
+}
+.main .right .buttons .icons a i {
+    color: aliceblue;
+    font-size: 20px;
+}
